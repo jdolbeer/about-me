@@ -1,7 +1,22 @@
+* {
+  font-family: "Verdana"
+}
+* {
+  background-color: #cccccc
+}
 h1, h2 {
   color: #006600
 }
-img {
-  width:42px
-  height:42px
+.social {
+  text-align: right;
+}
+.resize {
+  width:40px;
+  height:auto;
+}
+.bottom {
+  position: fixed;
+    text-align: right;
+    bottom: 0px;
+    width: 100%;
 }
