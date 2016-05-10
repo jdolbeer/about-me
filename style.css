@@ -4,6 +4,16 @@
 * {
   background-color: #cccccc
 }
+#banner {
+  background:black url(http://digital-photography-school.com/wp-content/uploads/2012/09/Peter-West-Carey-Seattle2012-0908-6437-151.jpg) center no-repeat;
+  width:100%;
+  min-height:275px;
+  margin:0
+  padding:0
+}
+h1 {
+  text-align: center
+}
 h1, h2 {
   color: #006600
 }
