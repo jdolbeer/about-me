@@ -22,9 +22,28 @@ h1, h2 {
   width:40px;
   height:auto;
 }
-.bottom {
+.bottomright {
   position: fixed;
     text-align: right;
-    bottom: 0px;
+    bottom: 0;
     width: 100%;
+}
+.listhead {
+  position:fixed;
+  text-align: left;
+  bottom: 250px
+}
+.listbox {
+  border: 5px solid #006600;
+  padding: 20px;
+  width: 275px;
+  text-align: left;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -website-border-radius: 10px;
+}
+.listpos {
+  position: fixed;
+    text-align: left;
+    bottom: 0px;
 }
