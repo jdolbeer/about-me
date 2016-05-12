@@ -83,7 +83,7 @@
  var maxGuesses = 3;
  var correctAns = 8;
 
- for (var i = 0; i < 5; i++); {
+ for (var i = 0; i < 4; i++); {
    if (response6 === correctAns) {
      alert('Yup!  That\'s the number I used, ' + userName + '!');
      correct += 1;
@@ -93,7 +93,7 @@
    } else if (response6 < correctAns) {
      alert('Nope, not quite.  Higher.');
      counter += 1;
-   } if (counter === 4) {
+   } if (counter === maxGuesses) {
      alert('Sorry, it was 8.');
    }
  }
