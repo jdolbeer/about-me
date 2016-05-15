@@ -2,12 +2,15 @@
   font-family: "Verdana"\
   background-color: #cccccc;
 }
-#banner {
-  background:black url(http://digital-photography-school.com/wp-content/uploads/2012/09/Peter-West-Carey-Seattle2012-0908-6437-151.jpg) center no-repeat;
-  width:100%;
-  min-height:275px;
-  margin:0;
-  padding:0;
+.banner {
+  background: black;
+  text-align:center;
+  max-height: 300px;
+  margin-top: -45px;
+
+}
+.imgresize {
+  height: 300px;
 }
 h1 {
   text-align: center;
@@ -18,7 +21,7 @@ h1, h2 {
 .social {
   text-align: right;
 }
-.resize {
+.socialresize {
   width:40px;
   height:auto;
 }
@@ -31,7 +34,7 @@ h1, h2 {
 .listhead {
   position:static;
   text-align: left;
-  bottom: 250px;
+  bottom: 0
 }
 .listbox {
   border: 5px solid #006600;
@@ -39,9 +42,10 @@ h1, h2 {
   width: 275px;
   text-align: left;
   border-radius: 10px;
+  bottom: 0;
 }
 .listpos {
-  position: fixed;
+  position: static;
     text-align: left;
-    bottom: 0px;
+    bottom: 0;
 }
