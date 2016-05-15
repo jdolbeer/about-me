@@ -62,11 +62,11 @@ for (var i = 0; i < 4; i++) {
 
 // Question 7 - Where have I traveled
 
-var myCountries = ['Japan', 'Korea', 'Germany', 'Canada'];
+var myCountries = ['japan', 'korea', 'germany', 'canada'];
 var counter7 = 6;
 
 while (counter7 > 0) {
-  var response7 = prompt('I\'ve traveled quite a bit. Can you guess one of the other countries I\'ve been to?');
+  var response7 = prompt('I\'ve traveled quite a bit. Can you guess one of the other countries I\'ve been to?').toLowerCase;
   if (response7 === myCountries[0] || response7 === myCountries[1] || response7 === myCountries[2] || response7 === myCountries[3]) {
     alert('Yes I\'ve been to ' + response7 + '. I\'ve been to ' + myCountries);
     score += 1;
