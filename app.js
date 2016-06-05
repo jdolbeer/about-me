@@ -35,7 +35,7 @@ for (var i = 0; i < numberOfQuestions; i++) {
     alert(correctResponses[i]);
     score += 1;
   } else if (answer !== correctAns[i]) {
-    alert(incorrectResponses[i][0] + userName + incorrectResponses[i][1]);
+    alert(incorrectResponses[i]);
   }
 }
 // Question 6 - My Jersey # in Basketball
